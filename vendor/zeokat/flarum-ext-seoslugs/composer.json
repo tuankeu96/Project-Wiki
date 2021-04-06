@@ -1,0 +1,33 @@
+{
+	"name": "zeokat/flarum-ext-seoslugs",
+	"description": "Use friendly URLs (aka transliteration) in slugs",
+	"type": "flarum-extension",
+	"keywords": ["flarum","links","seo","transliteration","slug"],
+	"author": {
+		"name": "Zeokat",
+		"homepage": "http://www.vozidea.com"
+	},
+	"license": "MIT",
+	"require": {
+		"flarum/core": "^0.1.0-beta.8"
+	},
+	"autoload": {
+            "psr-4": {
+                "Zeokat\\Transliterator\\": "src/"
+            }
+        },
+	"support": {
+		"source": "https://github.com/Zeokat/flarum-ext-seoslugs",
+		"issues": "https://github.com/Zeokat/flarum-ext-seoslugs/issues"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "SEO friendly slugs for Flarum",
+			"icon": {
+				"name": "fas fa-language",
+				"backgroundColor": "#6c8dc4",
+				"color": "#fff"
+			}
+		}
+	}
+}

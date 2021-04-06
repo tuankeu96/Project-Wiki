@@ -1,0 +1,9 @@
+imgur-upload:
+  admin:
+    settings:
+      hide-markdown-image: Hide Markdown image button
+  forum:
+    upload: Press or paste to upload
+    loading: Uploading...
+    done: Done!
+    error: Error

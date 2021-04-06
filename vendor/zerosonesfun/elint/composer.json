@@ -1,0 +1,45 @@
+{
+    "name": "zerosonesfun/elint",
+    "description": "Opens external links, and only external links, in a new tab.",
+    "type": "flarum-extension",
+    "keywords": ["discussion, external, links"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "homepage": "https://www.wilcosky.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zerosonesfun/elint/issues",
+        "source": "https://github.com/zerosonesfun/elint",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\Elint\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "External Links in New Tab (ELINT)",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-external-link-square-alt",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
